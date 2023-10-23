@@ -1,0 +1,26 @@
+
+#container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  padding-top: 40px;
+  margin: auto;
+  gap: 20px;
+}
+.main{
+  background-color: #f5f5f5;
+}
+#topContainer {
+  text-align: center;
+  text-transform: capitalize;
+}
+
+#pdtitle{
+    font-size:2vw;
+}
+
+.product-card:hover {
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3); 
+  transform: translateY(-3px); 
+}
